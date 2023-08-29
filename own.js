@@ -1,5 +1,6 @@
 const express = require('express');
-const path = require('path'); // Require the 'path' module
+const path = require('path'); 
+// Require the 'path' module
 const app = express();
 const port = 3006;
 
@@ -7,7 +8,8 @@ const port = 3006;
 app.set('view engine', 'ejs');
 
 // Set the directory for your templates
-app.set('views', path.join(__dirname, 'views')); // Set the 'views' directory
+app.set('views', path.join(__dirname, 'views')); 
+// Set the 'views' directory
 
 // Define your values array or principles
 const values = [
